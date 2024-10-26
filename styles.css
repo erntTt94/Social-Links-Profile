@@ -1,0 +1,100 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    height: 70vh;
+    width: 24%;
+    border-radius: 3%;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 36vh;
+    width: 80%;
+
+}
+
+img {
+    border-radius: 50%;
+    height: 10vh;
+    transform: translateY(0.5em);
+    margin: 0;
+}
+
+
+#location {
+    transform: translateY(-1.8em);
+    font-size: 13px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 0;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 0.9em 4.8em;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+#job {
+    font-size: 0.8em;
+    margin-bottom: 0.9em;
+    margin-top: 0;
+}
+
+h2,
+p,
+button {
+    color: white;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 12%);
+}
+
+@media (width <=1354px) {
+    #card {
+        width: 40%;
+    }
+}
+
+@media (width <=900px) {
+    #card {
+        width: 60%;
+    }
+}
+
+@media (width <=600px) {
+    #card {
+        width: 70%;
+    }
+}
+
+@media (width <=460px) {
+    #card {
+        width: 90%;
+
+    }
+}
